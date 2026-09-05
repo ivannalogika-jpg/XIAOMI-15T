@@ -1,0 +1,67 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+   
+header{
+    background-color: gray;
+    padding: 20px;
+    color: white;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+.menu-link{
+    text-decoration: none;
+     padding: 8px 12px;
+    border-radius: 6px;
+   background-image: linear-gradient( to right, black, gray);
+    margin-left: 8px;
+    box-shadow:  5px 5px 10px;
+    margin-top: 25px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.hero-text{
+    color: white;
+}
+
+main{
+    background-color: black;
+    padding: 10px;
+}
+
+.hero-title{
+    color: white;
+}
+.menu-link:hover{
+    background-image: linear-gradient( to left, gray, black)
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.specsh{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+
+.title-15T{
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #080808;
+}
